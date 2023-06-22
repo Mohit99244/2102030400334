@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            animation-name: animation;
+            animation-duration: 10s;
+            height: 200px;
+            animation-iteration-count: infinite;
+            position: relative;
+            background-color: blue;
+
+
+
+        }
+
+
+        @keyframes animation{
+        0%{background-color: blue;left: 0px; top: 0px; transform: rotate(0deg);}
+        25%{background-color: rgb(122, 226, 25);left: 200px; top: 0px; transform: rotate(90deg);}
+        50%{background-color: rgb(26, 185, 206);left:200px; top:200px; transform: rotate(180deg);}
+        75%{background-color: rgb(196, 21, 123);left: 0px; top:200px; transform: rotate(270deg);}
+        100%{background-color: blue;left: 0px; top: 0px; transform: rotate(360deg);}
+        } 
+        
+    </style>
+</head>
+<body>
+    <div></div>
+    
+</body>
+</html>
