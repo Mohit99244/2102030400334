@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        div{
+            height: 200px;
+            width: 200px;
+            transition: 3s;
+            font-weight: bold;
+            background-color: blueviolet;
+            margin-top: 20px;
+            
+        }
+
+        #translatediv:hover
+        {
+            transform: translate(100px,100px);
+        }
+
+        #rotatediv:hover
+        {
+            transform: rotate(360deg);
+        }
+
+        #rotate3d_div:hover
+        {
+            transform:rotate3d(1,1,0,360deg);
+        }
+
+        #skewdiv:hover{
+            transform: skew(90deg);
+        }
+
+        #scalediv:hover{
+            transform: scale(1.5,1.5) ;
+        }
+
+        #opacitydiv:hover{
+           background-color: aqua;
+           opacity: 0.5;
+        }
+        #rgbadiv:hover{
+            background-color: black;
+           
+        }
+
+        #boxshadowdiv:hover{
+        box-shadow: 2px 6px rgb(207, 51, 4);
+        }
+
+        #textshadowdiv:hover{
+            text-shadow: 2px 3px red;
+             color: black; 
+             font-size: larger; 
+
+        }
+
+        #borderradiusdiv:hover{
+       border-radius: 50px;
+        }
+
+        #overflowdiv:hover{
+            overflow: hidden;
+        }
+
+    </style>
+</head>
+<body>
+<div id="translatediv">translate</div>
+<div id="rotatediv">rotate</div>
+    <div id="rotate3d_div">rotate3d</div>
+    <div id="skewdiv">skew</div>
+    <div id="scalediv">scale</div>
+    <div id="opacitydiv">opacity</div>
+    <div id="rgbadiv">rgba</div>
+    <div id="boxshadowdiv">boxshadow</div>
+    <div id="textshadowdiv">textshadow</div>
+    <div id="borderradiusdiv">borderradius</div>
+    <div id="overflowdiv">overflow </div>
+</body>
+</html>
