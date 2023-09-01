@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poster</title>
+
+</head>
+<body>
+    <table border="2PX" style="background-color: rgb(14, 6, 6);"  cellspacing="5px">
+        
+        
+    
+        <tr>
+            <td>
+                <img src="https://tse3.mm.bing.net/th?id=OIP.cawT6DH6IPrUIA_pLBTWUwHaEK&pid=Api&P=0&h=180" alt="" height="200px" weidth="100px">  
+            </td>
+        
+                
+          
+                <td align="center" >
+                    
+                        
+                        <b><h1 style="color:aqua">Released on 11 of August</h1></b>
+                        <h3 style="color:aqua"> Director: Amit rai</h3>
+                        <h4 style="color:aqua">Producers:</h4>
+                       <h5> <li style="color:aqua">Vipul D. Shah </li>
+                        <li style="color:aqua">Rajesh B</li>
+                        <li style="color:aqua">Ashwin V</li>
+                        <li style="color:aqua">Arun Bhatia</li>
+                    </h5>
+                    
+                </td>
+        </tr>
+                
+        <tr>
+            <td >
+                    
+                
+                <h2 style="color:aqua">Cast:</h2>
+                        <h3><li style="color:aqua">Akshay kumar</li>
+                        <li style="color:aqua">Arun govil</li>
+                        <li style="color:aqua">Yami gautam</li>
+                        <li style="color:aqua"> pankaj tripati</li></h3>
+
+
+                        <h3 style="color:aqua" align="center">Music by:</h3>
+                        <h4><li style="color:aqua"align="center">Vikram Montrose</li>
+                        <li style="color:aqua"align="center">Hansraj Raghuwanshi</li>
+                        <li style="color:aqua"align="center">sandesh shandilya</li>
+                        <li style="color:aqua"align="center"> pankaj tripati</li></h4>
+                
+            </td>
+              <td>
+                
+                <img src="https://tse3.mm.bing.net/th?id=OIP.9elOysjWy_ubVS1wCtxdkgHaFj&pid=Api&P=0&h=180" alt="" height="350px" weidth="250px"  >
+              </td>
+               
+        </table>
+        
+    </table>
+</body>
+</html>
